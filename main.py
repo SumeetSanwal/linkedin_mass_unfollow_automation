@@ -58,6 +58,9 @@ if __name__ == '__main__':
 
     #Pop the following tab element
     ele_list.pop(0)
+    l = len(ele_list)
+
+    print(f"Number of connections following : {l}")
 
     i=1 #Count for number for folks unfollowed
     for ele in ele_list:
